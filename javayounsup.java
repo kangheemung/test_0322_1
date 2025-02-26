@@ -287,3 +287,124 @@ public class Main {
     }
 }
 //true
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> members = new ArrayList<>();
+        members.add("kirishima");
+        members.add("midorikawa");
+        members.add("rokumura");
+        System.out.println(members.contains("rokumura"));
+    }
+}
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        fruits.add("apple");
+        fruits.add("orange");
+        fruits.add("lemon");
+        fruits.remove(1);
+
+        System.out.println(fruits);
+        System.out.println(fruits.size());
+        
+    }
+}
+
+// [apple, lemon]
+// 2
+//削除10:要素の削除（remove）
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> members = new ArrayList<>();
+        members.add("kirishima");
+        members.add("midorikawa");
+        members.add("rokumura");
+        // 以下にコードを追加
+members.remove(0);
+
+        System.out.println(members);
+    }
+}
+
+//削除10:全要素の削除（clear）
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> members = new ArrayList<>();
+        members.add("kirishima");
+        members.add("midorikawa");
+        members.add("rokumura");
+        // 以下にコードを追加
+        members.clear();
+        
+        System.out.println(members);
+    }
+}
+
+// 11:要素の並び替え（Collections.sort）
+import java.util.ArrayList;
+import java.util.Collections;
+
+
+ //＃11:要素の並び替え（Collections.sort）
+public class Main {
+    public static void main(String... args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+
+        numbers.add(1);
+        numbers.add(14);
+        numbers.add(10);
+        numbers.add(5);
+        numbers.add(8);
+        numbers.add(2);
+
+        //整列前
+
+             Collections.sort(numbers,Collections.reverseOrder());
+        System.out.println(numbers);
+    }
+}
+// [1, 14, 10, 5, 8, 2]
+// [14, 10, 8, 5, 2, 1]
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(8);
+        numbers.add(1);
+        numbers.add(3);
+        // 以下にコードを追加
+       Collections.sort(numbers);
+    
+        System.out.println(numbers);
+    }
+}
+[1, 3, 8]
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(8);
+        numbers.add(1);
+        numbers.add(3);
+        
+        Collections.sort(numbers, Collections.reverseOrder());
+        
+        System.out.println(numbers);
+    }
+}
