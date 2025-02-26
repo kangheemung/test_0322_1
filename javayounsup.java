@@ -61,7 +61,7 @@ public class Main {
 // new 演算子
 public class Main {
     public static void main(String... args) {
-        Monster slime =new Monster();
+        Item sword = new Item();
 
     }
 }
@@ -69,3 +69,103 @@ public class Main {
 class Monster {
 
 }
+
+
+public class Main {
+    public static void main(String... args) {
+        Monster slime = new Monster();
+
+        // String text = "paiza";
+        // Intger x = 100;
+        String text = new String("paiza");
+        integer x =new integer(100);
+        System.out.println(text);
+        System.out.println(x);
+    }
+}
+
+class Monster {
+}
+
+public class Main {
+    public static void main(String... args) {
+        Monster slime = new Monster();
+
+        // String text = "paiza";
+        // Intger x = 100;
+        String text = new String("paiza");
+        Integer x = new Integer(100);
+        System.out.println(text);
+        System.out.println(x);
+    }
+}
+
+class Monster {
+}
+
+// 01:ArrayList型の変数の宣言方法
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits =new ArrayList<String>();
+        System.out.print(fruits);
+    }
+}
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits = new ArrayList<>();
+        fruits.add("apple");
+        fruits.add("orange");
+        fruits.add("lemon");
+        System.out.println(fruits);
+    }
+}
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        fruits.add("apple");
+        fruits.add("orange");
+        fruits.add("lemon");
+        fruits.add(1,"grape");
+
+        System.out.println(fruits);
+    }
+}
+
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> members = new ArrayList<>();
+        members.add("kirishima");
+        members.add("midorikawa");
+        members.add(0,"rokumura");
+        //以下にコードを追加
+
+
+        System.out.println(members);
+    }
+}
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits = new ArrayList<String>();
+
+        fruits.add("apple");
+        fruits.add("orange");
+        fruits.add("lemon");
+        fruits.set(1,"grape");
+
+        System.out.println(fruits);
+    }
+}
+//[apple, grape, lemon]
