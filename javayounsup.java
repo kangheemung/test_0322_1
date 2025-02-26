@@ -58,6 +58,14 @@ public class Main {
 //         money = 2000;
 //         ^
 // 1 error
+// new 演算子
+public class Main {
+    public static void main(String... args) {
+        Monster slime =new Monster();
 
+    }
+}
 
+class Monster {
 
+}
