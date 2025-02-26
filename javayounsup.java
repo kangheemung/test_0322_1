@@ -223,7 +223,67 @@ public class Main {
         members.add("kirishima");
         members.add("midorikawa");
         members.add("rokumura");
-        
+
         System.out.println(members.size());
     }
 }
+//07:要素のインデックスを取得（indexOf）
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        fruits.add("apple");
+        fruits.add("orange");
+        fruits.add("lemon");
+
+        System.out.println(fruits.indexOf("orange"));
+    }
+}
+// 出力1
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> members = new ArrayList<>();
+        members.add("kirishima");
+        members.add("midorikawa");
+        members.add("rokumura");
+        
+        System.out.println(members.indexOf("rokumura"));
+    }
+}
+//出力 2
+
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        fruits.add("apple");
+        fruits.add("orange");
+        fruits.add("lemon");
+
+        System.out.println(fruits.contains("grape"));
+    }
+}
+//出力 false
+//08:要素の有無を確認（contains）
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        fruits.add("apple");
+        fruits.add("orange");
+        fruits.add("lemon");
+
+        System.out.println(fruits.contains("apple"));
+    }
+}
+//true
