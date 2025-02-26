@@ -169,3 +169,61 @@ public class Main {
     }
 }
 //[apple, grape, lemon]
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> members = new ArrayList<>();
+        members.add("kirishima");
+        members.add("midorikawa");
+        members.add("rokumura");
+        //以下にコードを追加
+        
+     members.set(members.indexOf("rokumura"), "nara");
+        System.out.println(members);
+    }
+}
+// 04:要素の置き換え（set）
+// 05:要素の取得（get）
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        fruits.add("apple");
+        fruits.add("orange");
+        fruits.add("lemon");
+        String fruit=fruits.get(1);
+        System.out.println(fruit);
+    }
+}
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> members = new ArrayList<>();
+        members.add("kirishima");
+        members.add("midorikawa");
+        members.add("rokumura");
+
+        String fruit=members.get(1);
+                System.out.println(fruit);
+
+    }
+}
+//:要素数の取得(size)
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String... args) {
+        ArrayList<String> members = new ArrayList<>();
+        members.add("kirishima");
+        members.add("midorikawa");
+        members.add("rokumura");
+        
+        System.out.println(members.size());
+    }
+}
