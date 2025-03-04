@@ -303,3 +303,35 @@ nums[0] = new int[3];
 nums[0][0] = "Hello"; // 整数型でないのでコンパイルエラー
 nums[1] = new String[3]; // コンパイルエラー
 nums[2] = 1; // 配列ではないのでコンパイルエラー
+
+
+
+class Sample1 {
+    public static void main(String[] args) {
+        int[][] nums = {
+            {1, 2},
+            {3, 4, 5}
+        };
+
+        System.out.println(nums[0][0]);
+        System.out.println(nums[0][1]);
+        System.out.println(nums[1][0]);
+        System.out.println(nums[1][1]);
+        System.out.println(nums[1][2]);
+    }
+}
+
+class Sample1 {
+    public static void main(String[] args) {
+         String words[][] = {
+            {"a", "bc", "!!"},
+            {"He", "l"},
+            {"lo", "!", "def"}
+        };
+
+        System.out.print(words[1][0]);
+        System.out.print(words[1][1]);
+        System.out.print(words[2][0]);
+        System.out.print(words[0][2]);
+    }
+}
