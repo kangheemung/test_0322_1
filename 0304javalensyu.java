@@ -171,3 +171,40 @@ class Sample1 {
           System.out.println(isOddNumber);
     }
 }
+int num1 = 5;
+int num2 = 4;
+
+// 論理積 ... 1つ目がTRUE且つ、2つ目がTRUEかどうか
+num1 >= 5 && (num1 + num2) >= 10; // false
+num1 >= 5 && (num1 + num2) > 7; // true
+
+// 論理和 ... 1つ目がTRUEまたは、2つ目がTRUEかどうか
+num1 >= 5 || num2 >= 10; // true
+num1 < 5 || num2 == 4; // true
+num1 < 5 || num2 >= 10; // false
+// 否定 ... booleanの反転を行う
+boolean flg3 = false;
+boolean flg4 = true;
+!flg3; // true
+!flg4; // false
+!(flg3 == true); // true
+!(flg4 == true); // false
+
+// 他の論理演算と組み合わせることもあります
+!(flg3 == true && flg4 == true); // true
+!(flg3 == true || flg4 == true);
+
+
+class Sample1 {
+    public static void main(String[] args) {
+       int[] nums = new int[3];
+        nums[0] = 1;
+        nums[1] = 2;
+        nums[2] = 3;
+         // 以下の記述も可
+        // int[] nums = {1, 2, 3};
+        System.out.println(nums[0]);
+        System.out.println(nums[1]);
+        System.out.println(nums[2]);
+    }
+}
