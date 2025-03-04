@@ -56,7 +56,7 @@ System.out.println(++num); // 7
 
 
 
-Java
+
 class Sample1 {
     public static void main(String[] args) {
         int number1 = 10;
@@ -67,5 +67,107 @@ class Sample1 {
         System.out.println(number1 * number2);
         System.out.println(number1 / number2);
         System.out.println(number1 % number2);
+    }
+}
+class Sample1 {
+    public static void main(String[] args) {
+        int number1 = 5;
+        int number2 = 6;
+        String message = "number1とnumber2の合計は";
+        System.out.println( message + (number1 + number2)+ "です。");
+    }
+}
+
+
+int num = 5;
+boolean flg = false;
+
+System.out.println(num == 6); // false
+System.out.println(num == 5); // true
+System.out.println(flg == true); // false
+System.out.println(flg == false); // true
+
+System.out.println(num < 5); // false
+System.out.println(num <= 5); // true
+System.out.println(num > 5.44); // false
+System.out.println(num >= 5.1f); // false
+
+// boolean型は大小を比べられないためコンパイルエラーになります
+System.out.println(flg > false);
+System.out.println(flg < 1);
+
+
+// これはtrue
+String str1 = "a";
+String str2 = "a";
+boolean flg = str1 == str2; // true
+
+// newキーワードでも用意可能です。別々にメモリに保存されます
+str1 = new String("a");
+str2 = new String("a");
+// newキーワードを生成した文字列同士の比較演算結果は、falseとなります
+flg = str1 == str2; // false
+
+// 文字連結などを行なった場合もfalseとなります
+str1 = str1 + "b";
+str2 = str2 + "b";
+flg = str1 == str2; // false
+
+
+String str1 = "a";
+String str2 = "a";
+str1 = str1 + "b";
+str2 = str2 + "b";
+
+// 文字列.equals(文字列);
+str1.equals(str2); // true
+
+
+public class Main{
+    public static void main(String[] args){
+     // String型は特殊で同じ文字列が代入された場合、同じ参照先が使われます
+        String str1 = "abc";
+        String str2 = "abc";
+        System.out.println(str1 == str2); // 同一かどうか → true
+        System.out.println(str1.equals(str2)); // 同値かどうか → true
+
+// 別々に生成されたstr3とstr4は別々の参照先となる
+        String str3 = new String("a");
+        String str4 = new String("a");
+        System.out.println(str3 == str4); // 同一かどうか → false
+        System.out.println(str3.equals(str4)); // 同値かどうか → true
+   }
+}
+
+
+int num = 5;
+double d = 5.5;
+float f = 10.1f;
+String strNum = "5";
+String strD = "5.5";
+String strF = "10.1f";
+
+// 文字列は数値と比較できないため次の3行はコンパイルエラーになります
+System.out.println(num == strNum);
+System.out.println(d == strD);
+System.out.println(f == strF);
+
+// 文字列をそれぞれ見合った型に変換します
+
+// intに変換
+System.out.println(num == Integer.parseInt(strNum)); // true
+// doubleに変換
+System.out.println(d == Double.parseDouble(strD)); // true
+// floatに変換
+System.out.println(f == Float.parseFloat(strF)); // true
+
+class Sample1 {
+    public static void main(String[] args) {
+        int number1 = 103;
+        int number2 = 105;
+        boolean isOddNumber = false;
+         isOddNumber = (number1 + number2) % 2 == 1;
+
+          System.out.println(isOddNumber);
     }
 }
