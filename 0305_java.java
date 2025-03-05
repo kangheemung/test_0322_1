@@ -413,3 +413,54 @@ public class Main {
         }
     }
 }
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+         String a = sc.next();
+        String b = sc.next();
+        System.out.println(a+"@"+b);
+    }
+}
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        StringBuilder stars = new StringBuilder();
+
+        for (int i = 0; i < N; i++) {
+            stars.append("*");
+        }
+
+        System.out.println(stars);
+    }
+}
+// ### コード解説
+
+// 上記のJavaプログラムは、入力された整数 N の値に基づいてN個の「\*」を繋げた文字列を出力するものです。
+
+// 1. `import java.util.Scanner;`: Scanner クラスをインポートしています。これを使用して標準入力から値を受け取ります。
+
+// 2. `public class Main {`: Main クラスを定義しています。
+
+// 3. `public static void main(String[] args) {`: main メソッドを定義しています。プログラムのエントリーポイントとなります。
+
+// 4. `Scanner sc = new Scanner(System.in);`: 標準入力から値を受け取るための Scanner オブジェクトを作成しています。
+
+// 5. `int N = sc.nextInt();`: 標準入力から整数 N を受け取っています。
+
+// 6. `StringBuilder stars = new StringBuilder();`: 文字列を動的に構築するための StringBuilder オブジェクトを作成しています。
+
+// 7. `for (int i = 0; i < N; i++) {`: N 回ループして以下の処理を行います。
+//     - `stars.append("*");`: StringBuilder に「\*」を追加しています。
+
+// 8. `System.out.println(stars);`: 最終的な文字列を出力します。
+
+// このプログラムでは、入力された整数 N の数だけ「\*」を繋げて出力することができます。
