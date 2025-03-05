@@ -206,3 +206,38 @@ public class Main {
         System.out.println(N);
     }
 }
+
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+          int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int total =a-b+c;
+        System.out.println(total);
+    }
+}
+
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+      String S= sc.next();
+      if(S.equals("paiza")){
+           System.out.println( "YES");
+
+      }else{
+         System.out.println(  "NO");
+    }
+        
+    }
+}
