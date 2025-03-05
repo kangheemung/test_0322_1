@@ -241,3 +241,157 @@ public class Main {
         
     }
 }
+
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+      String S= sc.nextInt()
+      if(S<=100){
+           System.out.println( "YES");
+
+      }else{
+         System.out.println("NO");
+    }
+        
+    }
+}
+
+
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+        int S= sc.nextInt();
+      if(S<=100){
+           System.out.println( "YES");
+
+      }else{
+         System.out.println("NO");
+    }
+    }
+}
+
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+       int A= sc.nextInt();
+       int B= sc.nextInt();
+       int C= sc.nextInt();
+
+       if( (A * B) <= C){
+           System.out.println( "YES");
+       }
+       else{
+            System.out.println("NO");
+       }
+     
+    }
+}
+
+
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+       int n= sc.nextInt();
+
+       if( n==7){
+           System.out.println( "Yes");
+       }
+       else{
+            System.out.println("NO");
+       }
+     
+    }
+}
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        for (int i = 1; i <= N; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 100; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FizzBuzz");
+            } else if (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else if (i % 5 == 0) {
+                System.out.println("Buzz");
+            } else {
+                System.out.println(i);
+            }
+        }
+    }
+}
+
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+        int A= sc.nextInt();
+       int B= sc.nextInt();
+       int total= A*B;
+        System.out.println(total);
+    }
+}
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        System.out.println(sum);
+
+    }
+}
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+      int min = Integer.MAX_VALUE;
+        for (int i = 0; i < 5; i++) {
+            int num = sc.nextInt();
+            min = Math.min(min, num);
+        }
+        System.out.println(min);
+    }
+
+}
