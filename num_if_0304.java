@@ -157,3 +157,15 @@ public static void main(String[] args) {
     }
     str = "ok"; // 変数を利用できず、コンパイルエラーになります
 }
+
+class Sample1 {
+    public static void main(String[] args) {
+        int number1 = 23;
+
+       if (number1==5) {
+           Sysyem.out.println("OK")
+    // 処理1
+
+        }
+    }
+}
