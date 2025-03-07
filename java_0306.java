@@ -299,3 +299,113 @@ public class Main {
         }
     }
 }
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+        sc.nextLine();
+
+        for (int i = 0; i < N; i++) {
+            System.out.println(sc.nextLine());
+        }
+
+    }
+}
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+        sc.nextLine();
+
+        for (int i = 0; i < N; i++) {
+            System.out.println(sc.next());
+        }
+
+  
+    }
+}
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+
+        for (int i = 0; i < N; i++) {
+            System.out.println(sc.next());
+        }
+
+
+    }
+}
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+
+        for (int i = 0; i < N; i++) {
+            System.out.println(sc.next());
+        }
+    }
+}
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        Scanner sc = new Scanner(System.in);
+        String line = sc.nextLine();
+        String[] parts = line.split(" ");
+        System.out.println(parts[0] + " " + parts[1]);
+
+    }
+}
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        sc.nextLine();
+        for (int i = 0; i < N; i++) {
+            String line = sc.nextLine();
+            System.out.println(line);
+        }
+    }
+}
+//
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        sc.nextLine(); 
+
+        for (int i = 1; i <= N; i++) {
+            String line = sc.nextLine();
+            if (i == 8) {
+                System.out.println(line);
+            }
+        }
+
+
+    }
+}
+//
+import java.util.*;public class Main {public static void main(String[] args) {Scanner sc = new Scanner(System.in);int N = sc.nextInt();for (int i = 1; i <= N; i++) {String line = sc.nextLine();if (i == 8) {System.out.println(line);break;}}sc.close();}}
