@@ -442,6 +442,17 @@ public class Main {
         System.out.println(stars);
     }
 }
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+        // 自分の得意な言語で
+       Scanner sc = new Scanner(System.in);
+       String N = sc.next();
+        System.out.println(N);
+    }
+}
 // ### コード解説
 
 // 上記のJavaプログラムは、入力された整数 N の値に基づいてN個の「\*」を繋げた文字列を出力するものです。

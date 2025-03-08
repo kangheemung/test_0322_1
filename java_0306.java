@@ -397,7 +397,7 @@ public class Main {
         int N = sc.nextInt();
         sc.nextLine(); 
 
-        for (int i = 1; i <= N; i++) {
+        for (int i = 0; i <= N; i++) {
             String line = sc.nextLine();
             if (i == 8) {
                 System.out.println(line);
@@ -409,3 +409,20 @@ public class Main {
 }
 //
 import java.util.*;public class Main {public static void main(String[] args) {Scanner sc = new Scanner(System.in);int N = sc.nextInt();for (int i = 1; i <= N; i++) {String line = sc.nextLine();if (i == 8) {System.out.println(line);break;}}sc.close();}}
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int N = Integer.parseInt(scanner.nextLine());
+
+        for (int i = 0; i < N; i++) {
+            String[] input = scanner.nextLine().split(" ");
+            String s = input[0];
+            int a = Integer.parseInt(input[1]);
+            System.out.println(s + " " + a);
+        }
+
+        scanner.close();
+    }
+}
