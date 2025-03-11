@@ -93,3 +93,23 @@ class Sample1 {
 // 1
 // 2
 // 3
+
+class Sample1 {
+    public static void main(String[] args) {
+         String[] fruit = {"りんご", "いちご", "みかん"};
+
+        System.out.println(fruit[1]);
+       
+    }
+}
+
+
+// 配列の基本操作2
+
+// 次の要素を持つ配列を用意し、配列内に保存した要素から以下の出力結果と同じように添字を指定して、出力しなさい。
+
+// ["りんご", "いちご", "みかん"]
+
+// 出力結果
+
+// いちご
