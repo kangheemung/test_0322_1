@@ -26,13 +26,26 @@ public static void main(String[] args) {
 }
 
 
-public static void main(String[] args) {
+class Sample5 {
+    public static void main(String[] args) {
+        int number7 = 4;
+        int number8 = 5;
+        int product = (number7 * number8);
 
-    int number7  = 3;
-    int number8 = 5;
+        if (product % 2 == 0 || product % 3 == 0) {
+            System.out.println("2か3の倍数です");
+        }
+    }
+}
+class Sample6 {
+    public static void main(String[] args) {
+        int number9 = 6;
+        int number10 = 8;
+        // 偶数と奇数の組み合わせなので足し合わせた結果が奇数か確認する
+        int sum = number9 + number10;
 
-    int total=(number5*number6);
-    if (total % 2 == 0 || total % 3== 0) {
-        System.out.println("2か3の倍数です");
+        if (sum % 2 == 1) {
+            System.out.println("偶数と奇数の組み合わせです");
+        }
     }
 }

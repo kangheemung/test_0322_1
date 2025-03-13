@@ -113,3 +113,44 @@ class Sample1 {
 // 出力結果
 
 // いちご
+class Sample1 {
+    public static void main(String[] args) {
+        int[][] nums = {
+            {1, 2},
+            {3, 4, 5}
+        };
+
+        System.out.println(nums[0][0]);
+        System.out.println(nums[0][1]);
+        System.out.println(nums[1][0]);
+        System.out.println(nums[1][1]);
+        System.out.println(nums[1][2]);
+    }
+}
+class Sample2 {
+    public static void main(String[] args) {
+        String words[][] = {
+            {"a", "bc", "!!"},
+            {"He", "l"},
+            {"lo", "!", "def"}
+        };
+
+        System.out.print(words[1][0]);
+        System.out.print(words[1][1]);
+        System.out.print(words[2][0]);
+        System.out.print(words[0][2]);
+    }
+}
+// 多次元配列の基本操作2
+
+// 次の要素を持つ配列を用意し、配列内に保存した要素から以下の出力結果と同じように添字を指定して、出力しなさい。
+
+// [
+//     ["a", "bc", "!!"],
+//     ["He", "l"],
+//     ["lo", "!", "def"]
+// ]
+
+// 出力結果
+
+// Hello!!
